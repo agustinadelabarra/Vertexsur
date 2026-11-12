@@ -248,6 +248,10 @@
   .caso-img img {
     width: 100%; height: 100%; object-fit: cover; object-position: center; display: block;
   }
+  .caso-link { display: block; text-decoration: none; color: inherit; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+  .caso-link:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(12,14,26,0.12); }
+  .caso-card:nth-child(n) .caso-img.caso-img-taqui, .caso-img.caso-img-taqui { background: #26172F; display: flex; align-items: center; justify-content: center; }
+  .caso-img.caso-img-taqui img { width: 70%; height: auto; max-height: 70%; object-fit: contain; }
   .caso-body { padding: 16px 18px 20px; }
   .caso-title {
     font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 15px;
@@ -557,13 +561,13 @@
           <div class="caso-desc">Gestión de pagos y comprobantes para grupos y comunidades.</div>
         </div>
       </div>
-      <div class="caso-card">
-        <div class="caso-img"><img src="card-caso-entradas.jpg" alt="Gestión de entradas para eventos"></div>
+      <a class="caso-card caso-link" href="https://taqui.vertexsur.com/?utm_source=vertexsur&amp;utm_medium=web" target="_blank" rel="noopener">
+        <div class="caso-img caso-img-taqui"><img src="https://taqui.vertexsur.com/marca/taqui-logo-blanco.svg" alt="Taqui — logo"></div>
         <div class="caso-body">
-          <div class="caso-title">Gestión de entradas</div>
-          <div class="caso-desc">Venta, control y validación de entradas para eventos.</div>
+          <div class="caso-title">Taqui</div>
+          <div class="caso-desc">Venta de entradas con tu marca: butaca elegida, pagos controlados con IA y control de puerta.</div>
         </div>
-      </div>
+      </a>
       <div class="caso-card">
         <div class="caso-img"><img src="card-caso-micros.jpg" alt="Reserva de asientos de micros para eventos"></div>
         <div class="caso-body">
@@ -592,13 +596,13 @@
           <div class="caso-desc">Gestión de pagos y comprobantes para grupos y comunidades.</div>
         </div>
       </div>
-      <div class="caso-card" aria-hidden="true">
-        <div class="caso-img"><img src="card-caso-entradas.jpg" alt=""></div>
+      <a class="caso-card caso-link" href="https://taqui.vertexsur.com/?utm_source=vertexsur&amp;utm_medium=web" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+        <div class="caso-img caso-img-taqui"><img src="https://taqui.vertexsur.com/marca/taqui-logo-blanco.svg" alt=""></div>
         <div class="caso-body">
-          <div class="caso-title">Gestión de entradas</div>
-          <div class="caso-desc">Venta, control y validación de entradas para eventos.</div>
+          <div class="caso-title">Taqui</div>
+          <div class="caso-desc">Venta de entradas con tu marca: butaca elegida, pagos controlados con IA y control de puerta.</div>
         </div>
-      </div>
+      </a>
       <div class="caso-card" aria-hidden="true">
         <div class="caso-img"><img src="card-caso-micros.jpg" alt=""></div>
         <div class="caso-body">
